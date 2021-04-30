@@ -27,6 +27,24 @@ class Result {
 
     public static String timeConversion(String s) throws ParseException{
     // Write your code here
+        /*
+        //another solution is below
+        int hh=Integer.parseInt(s.substring(0,2));
+    int mm=Integer.parseInt(s.substring(3,5));
+    int ss=Integer.parseInt(s.substring(6,8));
+    String aa=s.substring(8,9);
+    System.out.println(aa);
+    int HH=hh;
+    if(hh==12 && aa.equals("A")){
+        HH=0;
+    }
+    if(hh<12 && aa.equals("P")){
+        HH=hh+12;
+    }
+    String s1=String.format("%02d:%02d:%02d",HH,mm,ss);
+//System.out.printf("%02d",HH,":","%02d",mm,":",ss);
+return s1;
+        */
     DateFormat dateformate= new SimpleDateFormat("hh:mm:ssaa");
     DateFormat formate=new SimpleDateFormat("HH:mm:ss");
     Date time=null;
