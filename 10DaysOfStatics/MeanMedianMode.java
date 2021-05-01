@@ -24,10 +24,10 @@ public class Solution {
         int Mid=(N+1)/2;
         double median;
         if(N%2==0){
-         median=(array[Mid]+array[Mid-1])/2;
+         median=(array[mid-1]+array[mid-1+1])/2;    //mid-1   means the indexing start from 0
         }
         else{
-             median=(array[mid]);
+             median=(array[Mid-1]);
         }
         double maxValue = 0;
         int maxCount = 0, i, j;
@@ -46,12 +46,8 @@ public class Solution {
       }
       System.out.println(mean);
         System.out.println(median);
-      if(maxCount>1){
           System.out.println(maxValue);
-      }
-      else{
-          System.out.println(array[0]);
-      }
+ 
         
         
         
