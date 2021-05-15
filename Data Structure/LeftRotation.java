@@ -27,29 +27,10 @@ class Result {
 
     public static List<Integer> rotateLeft(int d, List<Integer> arr) {
     // Write your code here
-//     int temp=0;
-//     int n=arr.size();
-//     for(int i=0;i<n;i++){
-//             if(d==i){
-//                     if(i==0){
-//                             break;
-//                     }
-//                     System.out.println(arr.get(i));
-//                 for(int j=i;j>=0;j--){
-//                         temp=arr.get(j);
-//                         arr.set(j,arr.get(j-1));
-//                         arr.set(j-1,temp);
-//                         System.out.print(arr);
-//                         if(j-1==0){
-//                                 break;
-//                         }
-//                 }   
-//             }
-//     }
-while(d!=0){
-        arr.add(arr.remove(0));
-        d--;
-}
+    while(d!=0){
+            arr.add(arr.remove(0));
+            d--;
+    }
     return arr;
     
 
