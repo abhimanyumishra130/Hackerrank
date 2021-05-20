@@ -1,6 +1,7 @@
 #question link---https://www.hackerrank.com/challenges/list-comprehensions/problem
 
 
+
 if __name__ == '__main__':
     x = int(raw_input())
     y = int(raw_input())
