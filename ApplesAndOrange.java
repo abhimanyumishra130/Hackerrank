@@ -36,8 +36,8 @@ class Result {
                 countA+=1;
             }
         }
-        for(int j=0;j<oranges.size();j++){
-            if(b+oranges.get(j)>=s && b+oranges.get(j)<=t){
+        for(int i=0;i<oranges.size();i++){
+            if(b+oranges.get(i)>=s && b+oranges.get(i)<=t){
                 countO+=1;
             }
         }
