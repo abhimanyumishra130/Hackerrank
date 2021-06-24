@@ -16,7 +16,7 @@ import static java.util.stream.Collectors.toList;
 
 class Result {
 
-    /*
+    /*     
      * Complete the 'countApplesAndOranges' function below.
      *
      * The function accepts following parameters:
@@ -86,3 +86,4 @@ public class Solution {
         bufferedReader.close();
     }
 }
+
