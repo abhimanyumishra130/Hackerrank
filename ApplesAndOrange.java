@@ -1,5 +1,5 @@
 /*
-question link---https://www.hackerrank.com/challenges/apple-and-orange/problem
+question link---https://www.hackerrank.com/challenges/apple-and-orange/problem 
 */
 
 import java.io.*;
