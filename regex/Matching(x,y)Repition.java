@@ -26,6 +26,5 @@ class Regex_Test {
         Pattern p = Pattern.compile(Regex_Pattern);
         Matcher m = p.matcher(Test_String);
         System.out.println(m.find());
-    }   
-    
+    }
 }
