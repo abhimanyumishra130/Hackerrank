@@ -37,7 +37,8 @@ class Result {
             sum=sum+arr.get(j);
         }
         System.out.print(sum+" ");
-        sum=0;
+        sum=0;  
+        
         
     }*/
     min_sum=min_sum+arr.get(i);
