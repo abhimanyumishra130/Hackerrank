@@ -7,6 +7,7 @@ The elements of a String are called characters. The number of characters in a St
 Given two strings of lowercase English letters, A and ,B perform the following operations:
 
 Sum the lengths of A and B.
+
 Determine if A is lexicographically larger than B  (i.e.:A does  come before B in the dictionary?).
 Capitalize the first letter in A and B and print them on a single line, separated by a space.
 Input Format
