@@ -8,6 +8,7 @@ public class Solution {
     public static boolean canWin(int leap, int[] game) {
         // Return true if you can win the game; otherwise, return false.
         /*int i = 0;
+        
         boolean b =false;
         while(i<game.length){
         if(i+leap>game.length-1){
@@ -24,6 +25,7 @@ public class Solution {
                                         break;
                                 }
                         }else i=i+leap;
+                        
                         
                 }else i=i+1;
         }
